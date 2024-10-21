@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "21354824236",
+    "project_id": "rolex-emp",
+    "storage_bucket": "rolex-emp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:21354824236:android:c40e123f6b0cf7677a8789",
+        "android_client_info": {
+          "package_name": "com.dev.rolex_emp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCudRvqjX1kWsXMwAfiRbY6B8CT1ikHoeQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
