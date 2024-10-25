@@ -12,7 +12,7 @@ class LoginPage extends StatelessWidget {
       appBar: AppBar(
         centerTitle: true,
         title: Text('Login', style: TextStyle(color: Colors.white),),
-        backgroundColor: Colors.deepPurple,
+        backgroundColor: Colors.green,
         elevation: 0,
       ),
       body: SingleChildScrollView(
@@ -29,7 +29,7 @@ class LoginPage extends StatelessWidget {
                   style: TextStyle(
                     fontSize: 24,
                     fontWeight: FontWeight.bold,
-                    color: Colors.deepPurple,
+                    color: Colors.green,
                   ),
                 ),
               ),
@@ -87,7 +87,7 @@ class LoginPage extends StatelessWidget {
                 onPressed: loginController.login,
                 style: ElevatedButton.styleFrom(
                   padding: EdgeInsets.symmetric(vertical: 15),
-                  backgroundColor: Colors.deepPurple,
+                  backgroundColor: Colors.green,
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(12),
                   ),
@@ -117,7 +117,7 @@ class LoginPage extends StatelessWidget {
                     child: Text(
                       'Sign Up',
                       style: TextStyle(
-                        color: Colors.deepPurple,
+                        color: Colors.green,
                         fontWeight: FontWeight.bold,
                       ),
                     ),

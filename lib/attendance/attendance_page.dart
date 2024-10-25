@@ -141,7 +141,9 @@ class _AttendancePageState extends State<AttendancePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.deepPurpleAccent,
+        title: Text('ATTENDANCE'),
+        centerTitle: true,
+        backgroundColor: Colors.greenAccent,
         elevation: 0,
       ),
       body: Padding(
@@ -152,7 +154,7 @@ class _AttendancePageState extends State<AttendancePage> {
             // User Profile Section
             Container(
               decoration: BoxDecoration(
-                color: Colors.deepPurpleAccent,
+                color: Colors.green,
                 borderRadius: BorderRadius.circular(12),
               ),
               padding: const EdgeInsets.all(12.0),
@@ -282,7 +284,7 @@ class _AttendancePageState extends State<AttendancePage> {
               },
               style: ElevatedButton.styleFrom(
                 padding: EdgeInsets.symmetric(vertical: 16, horizontal: 64),
-                backgroundColor: Colors.deepPurpleAccent,
+                backgroundColor: Colors.green,
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(8),
                 ), // Button background color
